@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-image: url("gambar.jpg");
+}
+
+/* Style header */
+.header {
+  padding: 80px;
+  text-align: center;
+  color: white;
+  display: flex; /*untuk bisa menggunakan align item*/
+  justify-content: center; /*atas bawah*/
+  height: 60vh;
+  flex-direction: column; /*urutan jadi kolom*/
+  align-items: center; /*gae center atribut hanya 1 dibawahnya*/
+}
+
+/* Font size Header tambah gede  */
+.header h1 {
+	display: block; /*mengalokasikan 1 line buat artibut itu sendiri*/
+  font-size: 40px;
+}
+
+
+/* Style navigation bar */
+.navbar {
+  background-color: black;
+  position: fixed;
+  width: 100vw;
+}
+
+/* Style navigation bar link */
+.navbar a {
+  float: left; /*ngatur rata*/
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.navbar a:hover { /*kursor pas ngarah ke item*/
+  background-color: #ddd;
+  color: black;
+}
+.paragraph {
+	padding-top: 50px;
+	color: white;
+}
+
+.centerPendidikan{
+	font-size: 2em;
+	max-width: 800px;
+	text-align: left;
+}
+
+.aboutme .nama{
+	font-size: 5em; /*em= buat kali dari ukurannya*/
+	position: relative;/*sama kayak margin cuma paragraf bawah tidak ikut turun*/
+	top: 40px;
+	font-weight: bold;
+	line-height: 0px;
+}
+
+.aboutme p{
+	font-size: 1.5em;
+	display: inline-block; /*biar 2 kolom jadi 1 baris*/
+	padding: 0 5px;
+}
+
+th {
+	color: #FFFFFF; background-color: #336699; border-width: 1px;
+	border-style: solid; border-color: blue; font-size: 9pt;
+}
+td {
+	color: black;
+	background-color: #E6E6FA; border-width: 1px;
+	border-style: solid; border-color: blue; font-size: 9pt;
+}
